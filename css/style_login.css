@@ -1,0 +1,72 @@
+/*Style Login*/
+
+.login{
+	font-family: 'Poppins', sans-serif;
+	border: 1px solid grey;
+	width: 430px;
+	margin: auto;
+	padding: 30px;
+	border-radius: 20px;
+}
+
+.login__form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.login__user{
+	width: 350px;
+	height: 40px;
+	margin: 3px;
+	margin-top: 40px;
+	font-family: 'Poppins', sans-serif;
+	border: 2px solid grey;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.login__passwd{
+	width: 350px;
+	height: 40px;
+	margin: 3px;
+	border: 2px solid grey;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.login__submit{
+	height: 40px;
+	width: 350px;
+	margin-top: 5px;
+	font-family: 'Poppins', sans-serif;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+	background-color: #DAF7A6;
+}
+
+::placeholder{
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+}
+
+.login__title{
+	margin: auto;
+	text-align: center;
+	border-bottom: 1px solid grey;
+	width: 300px;
+	padding-bottom: 40px;
+}
+
+a:visited{
+	color: blue;
+}
+
+a:hover{
+	color: green;
+}
+
+.login__submit:focus{
+	background-color: #A2DA53;
+}

@@ -10,68 +10,17 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-	<title>Document</title>
-	<style>
-		/* The code is so short to create a new file*/
-		.login{
-			font-family: 'Poppins', sans-serif;
-			align-items: center;
-			
-		}
-
-		.login__form{
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-		}
-
-		.login__user{
-			width: 350px;
-			height: 40px;
-			margin: 3px;
-			font-family: 'Poppins', sans-serif;
-			border-style: solid;
-			border-radius: 10px;
-			text-align: center;
-		}
-
-		.login__passwd{
-			width: 350px;
-			height: 40px;
-			margin: 3px;
-			border-radius: 10px;
-			border-style: solid;
-			text-align: center;
-		}
-
-		.login__submit{
-			height: 40px;
-			width: 350px;
-			margin-top: 5px;
-			font-family: 'Poppins', sans-serif;
-			border-radius: 10px;
-			border: none;
-			background-color: #DAF7A6;
-		}
-
-		::placeholder{
-			text-align: center;
-			font-family: 'Poppins', sans-serif;
-		}
-
-		.login__title{
-			text-align: center;
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="./css/style_login.css"/>
+	<title>Log In</title>
 </head>
 <body>
 	<div class="login">
-		<h1 class="login__title">Sign Up</h1>
+		<h1 class="login__title">Log In</h1>
 		<form class="login__form">
 			<input class="login__user" type="text" placeholder="Username" id="name">
 			<input class="login__passwd" type="password" placeholder="Password" id="passwd">
 			<input class="login__submit" type="submit" value="Sing Up">
-			<h4 class="login__createacc"><a></h4>
+			<h4>Dont have a account? <a href="./user_signup.html" class="login__create-account">Sign up HERE!</a></h4>
 		</form>
 	</div>
 </body>
